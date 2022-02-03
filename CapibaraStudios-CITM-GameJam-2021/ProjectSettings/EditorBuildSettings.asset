@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SFamExterior.unity
+    guid: a8568f6387897b3498cfa5f6be18b4dd
+  - enabled: 1
+    path: Assets/Scenes/LoadingSFIn.unity
+    guid: bdf5c7d8e82878447b284fd7f3271cbc
+  - enabled: 1
+    path: Assets/Scenes/SagradaFamilia.unity
+    guid: d49637e84b7c1364e9f6e7e20150364c
   m_configObjects: {}

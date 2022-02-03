@@ -7,6 +7,7 @@ public class SceneLoader : MonoBehaviour
 {
     [SerializeField]
     private Image progressBar;
+    [SerializeField]
     private int sceneIndex;
     // Start is called before the first frame update
     void Start()
