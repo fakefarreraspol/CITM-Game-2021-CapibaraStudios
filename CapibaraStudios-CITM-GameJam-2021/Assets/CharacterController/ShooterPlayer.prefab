@@ -9390,6 +9390,8 @@ GameObject:
   - component: {fileID: 2801766407348051859}
   - component: {fileID: 3186899000128639652}
   - component: {fileID: 5102348189645103306}
+  - component: {fileID: 2617470226399374190}
+  - component: {fileID: 702992869154610969}
   m_Layer: 31
   m_Name: ShooterPlayer
   m_TagString: Player
@@ -9457,7 +9459,7 @@ MonoBehaviour:
   status: 0
   collisionLayer:
     serializedVersion: 2
-    m_Bits: 3841
+    m_Bits: 1921
   crouchHeight: 1
   sprintTime: 6
   sprintReserve: 4
@@ -9556,7 +9558,7 @@ MonoBehaviour:
   changeTo: 10
   topWaterLayer:
     serializedVersion: 2
-    m_Bits: 4096
+    m_Bits: 2048
   cameraMovement: {fileID: 0}
   waterHelpers: []
 --- !u!114 &2801766407348051859
@@ -9612,6 +9614,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e65849298bdb76a498fa94e056fcb0dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2617470226399374190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5651922488988288182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c426dcb4d3b6c004eb49be9ece06a37b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  timeBeforeRegenStarts: 3
+  healthValueIncrement: 1
+  healthTimeIncrement: 0.1
+  currentHealth: 0
+--- !u!136 &702992869154610969
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5651922488988288182}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2.268925
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.10599816, z: 0}
 --- !u!1 &5662695367568826333
 GameObject:
   m_ObjectHideFlags: 0
